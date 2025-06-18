@@ -18,7 +18,19 @@ System.out.println();
 }
 }
 */
+output:
 
+* * * * * *
+
+* * * * * *
+
+* * * * * *
+
+* * * * * *
+
+* * * * * *
+
+ * * * * * *
 /*2
 
 import java.util.Scanner;
@@ -40,6 +52,16 @@ System.out.println();
 }
 }
 */
+    output:
+1 1 1 1 1
+
+2 2 2 2 2
+
+3 3 3 3 3
+
+4 4 4 4 4
+
+ 5 5 5 5 5
 /*3
 import java.util.Scanner;
 class A
@@ -59,7 +81,18 @@ System.out.println();
 }
 }
 }
+
 */
+Output:
+1 2 3 4 5
+
+1 2 3 4 5
+
+1 2 3 4 5
+
+1 2 3 4 5
+
+ 1 2 3 4 5
 /*4
 import java.util.Scanner;
 class A
@@ -82,6 +115,18 @@ System.out.println();
 }
 }
 */
+    output:
+
+1 2 3 4 5
+
+6 7 8 9 10
+
+11 12 13 14 15
+
+16 17 18 19 20
+
+21 22 23 24 25
+
 /*5
 import java.util.Scanner;
 class A
@@ -108,6 +153,16 @@ System.out.println();
 }
 }
 */
+Output:
+1 2 3 4 5
+
+6 7 8 9 1
+
+2 3 4 5 6
+
+7 8 9 1 2
+
+3 4 5 6 7
 /*6
 import java.util.Scanner;
 class A
@@ -130,6 +185,17 @@ System.out.println();
 }
 }
 */
+Output:
+1 3 5 7 9
+
+11 13 15 17 19
+
+21 23 25 27 29
+
+31 33 35 37 39
+
+41 43 45 47 49
+
 /*7
 import java.util.Scanner;
 class A
@@ -160,6 +226,16 @@ System.out.println();
 }
 }
 */
+Output:
+1 0 1 0 1
+
+1 0 1 0 1
+
+1 0 1 0 1
+
+1 0 1 0 1
+
+ 1 0 1 0 1
 /*8
 import java.util.Scanner;
 
