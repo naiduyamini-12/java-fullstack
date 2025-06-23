@@ -410,6 +410,7 @@ public class C {
     }
 }
 */
+/*17
  class C {
     public static void main(String[] args) {
         int[] arr = {5, 12, 8, 23, 9};  
@@ -445,5 +446,74 @@ public class C {
         }
     }
 }
+*/
+/*18
+ class C {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 2, 3, 4, 4, 5};
+
+        int[] temp = new int[arr.length];
+        int count = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            boolean isDuplicate = false;
+
+           
+            for (int j = 0; j < count; j++) {
+                if (arr[i] == temp[j]) {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+
+            
+            if (!isDuplicate) {
+                temp[count] = arr[i];
+                count++;
+            }
+        }
+
+      
+        System.out.println("Array after removing duplicates:");
+        for (int i = 0; i < count; i++) {
+            System.out.print(temp[i] + " ");
+        }
+    }
+}
+*/
+/*19
+public class MissingNumber {
+    public static void main(String[] args) {
+      
+        int[] arr = new int[99];
+        int missing = 57;
+
+      
+        int index = 0;
+        for (int i = 1; i <= 100; i++) {
+            if (i != missing) {
+                arr[index] = i;
+                index++;
+            }
+        }
+
+       
+        int result = findMissing(arr);
+        System.out.println("Missing number is: " + result);
+    }
+
+
+    public static int findMissing(int[] arr) {
+        int totalSum = 100 * 101 / 2;  // Sum of 1 to 100
+        int arraySum = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            arraySum += arr[i];
+        }
+
+        return totalSum - arraySum;
+    }
+}
+*/
 
 
